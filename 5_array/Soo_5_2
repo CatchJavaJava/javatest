@@ -1,0 +1,17 @@
+package day1;
+import java.util.Scanner;
+public class Avg {
+	public static void main(String[] args) {
+		
+		int[] avg = new int[5];									// 5개의 배열 생성
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i = 0;i<5;i++) {
+			avg[i] = sc.nextInt();
+		}														// avg[0]~avg[4] 숫자 선언
+		
+		for(int i = 0;i<5;i++) {
+			System.out.println("avg[" + i + "] = " + avg[i]);
+		}														// avg[0]~avg[4] 값 순서대로 출력
+	}
+}
