@@ -1,3 +1,4 @@
+package five_array.seulin_5_Homework;
 import java.util.Scanner;
 // 연습문제 1번 
 //public class seulin {
