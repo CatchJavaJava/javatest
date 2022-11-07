@@ -38,8 +38,9 @@
 * **도전 문제**
    
     1. Apple이라는 클래스는 Frisbee와 Astore의 부모클래스이다. Apple이라는 클래스는 아래와 같다
-    ```java
-    import java.util.*;
+
+```java
+import java.util.*;
 
 public abstract class Apple {
 	
