@@ -12,7 +12,7 @@
 * **도전 문제**
    
     1. Apple이라는 클래스는 Frisbee와 Astore의 부모클래스이다. Apple이라는 클래스는 아래와 같다.
-
+```java
 import java.util.*;
 
 public abstract class Apple {
@@ -26,7 +26,7 @@ public abstract class Apple {
 	
 
 }
-
+```
 Frisbee와 Astore 클래스는 각각 fix라는 함수를 오버라이딩하여 해당 지점에서 수리하는 문자열을 출력한다.
 Iphone이라는 클래스에서는 핸드폰을 3번 떨어뜨리면 액정이 깨진다는 문자열과 함께 Frisbee와 Astore에서 수리비를 각각 비교하여 더 싼 쪽에서 수리를 하고 '~에서 수리, 수리비용은 ~원'을 출력하며 실행을 마친다.
 
